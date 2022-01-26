@@ -12,7 +12,7 @@ function App() {
 </div>
 
 
-<div id="about" className="container-fluid">
+<div id="about" className="container-fluid bg-white">
   <div className="row">
     <div className="col-sm-8">
       <h2>About Company Page</h2><br/>
@@ -41,7 +41,7 @@ function App() {
 </div>
 
 
-<div id="services" className="container-fluid text-center">
+<div id="services" className="container-fluid text-center bg-white">
   <h2>SERVICES</h2>
   <h3>What we offer</h3>
   <br/>
@@ -86,128 +86,14 @@ function App() {
 <div id="portfolio" className="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br/>
   <h3>What we have created</h3>
-  <div className="row text-center slideanim">
-    <div className="col-sm-4">
-      <div className="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300"/>
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
-      </div>
-    </div>
-    <div className="col-sm-4">
-      <div className="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300"/>
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div className="col-sm-4">
-      <div className="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300"/>
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
-      </div>
-    </div>
-  </div><br/>
-  
-  <h2>What our customers say</h2>
-  <div id="myCarousel" className="carousel slide text-center" data-ride="carousel">
-    
-    <ol className="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-    
-    <div className="carousel-inner" role="listbox">
-      <div className="item active">
-        <h3>"This company is the best. I am so happy with the result!"<br/><span>Michael Roe, Vice President, Comment Box</span></h3>
-      </div>
-      <div className="item">
-        <h3>"One word... WOW!!"<br/><span>John Doe, Salesman, Rep Inc</span></h3>
-      </div>
-      <div className="item">
-        <h3>"Could I... BE any more happy with this company?"<br/><span>Chandler Bing, Actor, FriendsAlot</span></h3>
-      </div>
-    </div>
-
-    
-    <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span className="sr-only">Previous</span>
-    </a>
-    <a className="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span className="sr-only">Next</span>
-    </a>
-  </div>
 </div>
 
 
-<div id="courses" className="container-fluid">
+<div id="courses" className="container-fluid bg-white">
   <div className="text-center">
     <h2>Pricing</h2>
     <h3>Choose a payment plan that works for you</h3>
-  </div>
-  <div className="row slideanim">
-    <div className="col-sm-4 col-xs-12">
-      <div className="panel panel-default text-center">
-        <div className="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div className="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div className="panel-footer">
-          <h3>$19</h3>
-          <h3>per month</h3>
-          <button className="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>     
-    <div className="col-sm-4 col-xs-12">
-      <div className="panel panel-default text-center">
-        <div className="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div className="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div className="panel-footer">
-          <h3>$29</h3>
-          <h3>per month</h3>
-          <button className="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>       
-    <div className="col-sm-4 col-xs-12">
-      <div className="panel panel-default text-center">
-        <div className="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div className="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div className="panel-footer">
-          <h3>$49</h3>
-          <h3>per month</h3>
-          <button className="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>    
   </div>
 </div>
 

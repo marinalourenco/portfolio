@@ -12,5 +12,6 @@ export const Nav = styled.nav`
     font-family: Montserrat, sans-serif;
 
     border-color: transparent;
+    border-bottom: 3px solid white;
     color: #fff !important;
 `;

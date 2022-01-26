@@ -1,8 +1,9 @@
 import React from 'react';
+import * as S from "./styles"
 
 function NavBar() {
   return (
-  <nav className="navbar navbar-default navbar-fixed-top">
+  <S.Nav className="navbar navbar-default navbar-fixed-top">
   <div className="container">
     <div className="navbar-header">
       <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,7 +23,7 @@ function NavBar() {
       </ul>
     </div>
   </div>
-</nav>
+</S.Nav>
   );
 }
 
