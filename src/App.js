@@ -1,42 +1,14 @@
-import logo from './logo.svg';
+import NavBar from './components/NavBar';
 import './App.css';
 
 function App() {
   return (
     <>
-    <nav className="navbar navbar-default navbar-fixed-top">
-  <div className="container">
-    <div className="navbar-header">
-      <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span className="icon-bar"></span>
-        <span className="icon-bar"></span>
-        <span className="icon-bar"></span>                        
-      </button>
-      <a className="navbar-brand" href="#myPage">Logo</a>
-    </div>
-    <div className="collapse navbar-collapse" id="myNavbar">
-      <ul className="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+    
+<NavBar/>
 <div className="jumbotron text-center">
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
-  <form>
-    <div className="input-group">
-      <input type="email" className="form-control" size="50" placeholder="Email Address" required />
-      <div className="input-group-btn">
-        <button type="button" className="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form>
+  <img className="avatar" src="https://avatars.githubusercontent.com/u/71576230?v=4" /> 
+  <p>| React | NodeJS | HTML | CSS |</p> 
 </div>
 
 
@@ -44,7 +16,7 @@ function App() {
   <div className="row">
     <div className="col-sm-8">
       <h2>About Company Page</h2><br/>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br/>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3><br/>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <br/><button className="btn btn-default btn-lg">Get in Touch</button>
     </div>
@@ -61,7 +33,7 @@ function App() {
     </div>
     <div className="col-sm-8">
       <h2>Our Values</h2><br/>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br/>
+      <h3><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3><br/>
       <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
@@ -71,22 +43,22 @@ function App() {
 
 <div id="services" className="container-fluid text-center">
   <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h3>What we offer</h3>
   <br/>
   <div className="row slideanim">
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
+      <h3>POWER</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
+      <h3>LOVE</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
+      <h3>JOB DONE</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
@@ -94,17 +66,17 @@ function App() {
   <div className="row slideanim">
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
+      <h3>GREEN</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
+      <h3>CERTIFIED</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div className="col-sm-4">
       <span className="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
+      <h3>HARD WORK</h3>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
@@ -113,7 +85,7 @@ function App() {
 
 <div id="portfolio" className="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br/>
-  <h4>What we have created</h4>
+  <h3>What we have created</h3>
   <div className="row text-center slideanim">
     <div className="col-sm-4">
       <div className="thumbnail">
@@ -150,13 +122,13 @@ function App() {
     
     <div className="carousel-inner" role="listbox">
       <div className="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br/><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h3>"This company is the best. I am so happy with the result!"<br/><span>Michael Roe, Vice President, Comment Box</span></h3>
       </div>
       <div className="item">
-        <h4>"One word... WOW!!"<br/><span>John Doe, Salesman, Rep Inc</span></h4>
+        <h3>"One word... WOW!!"<br/><span>John Doe, Salesman, Rep Inc</span></h3>
       </div>
       <div className="item">
-        <h4>"Could I... BE any more happy with this company?"<br/><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h3>"Could I... BE any more happy with this company?"<br/><span>Chandler Bing, Actor, FriendsAlot</span></h3>
       </div>
     </div>
 
@@ -173,10 +145,10 @@ function App() {
 </div>
 
 
-<div id="pricing" className="container-fluid">
+<div id="courses" className="container-fluid">
   <div className="text-center">
     <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h3>Choose a payment plan that works for you</h3>
   </div>
   <div className="row slideanim">
     <div className="col-sm-4 col-xs-12">
@@ -193,7 +165,7 @@ function App() {
         </div>
         <div className="panel-footer">
           <h3>$19</h3>
-          <h4>per month</h4>
+          <h3>per month</h3>
           <button className="btn btn-lg">Sign Up</button>
         </div>
       </div>      
@@ -212,7 +184,7 @@ function App() {
         </div>
         <div className="panel-footer">
           <h3>$29</h3>
-          <h4>per month</h4>
+          <h3>per month</h3>
           <button className="btn btn-lg">Sign Up</button>
         </div>
       </div>      
@@ -231,7 +203,7 @@ function App() {
         </div>
         <div className="panel-footer">
           <h3>$49</h3>
-          <h4>per month</h4>
+          <h3>per month</h3>
           <button className="btn btn-lg">Sign Up</button>
         </div>
       </div>      
