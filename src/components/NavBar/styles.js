@@ -15,3 +15,32 @@ export const Nav = styled.nav`
     border-bottom: 3px solid white;
     color: #fff !important;
 `;
+
+export const Container = styled.div`
+
+`;
+
+export const NavbarHeader = styled.div`
+
+`;
+
+export const Botao = styled.button`
+
+`;
+
+export const IconBar = styled.span`
+
+`;
+
+export const NavbarBrand = styled.a`
+
+`;
+
+export const CollapseNavbarCollapse = styled.div`
+
+`;
+
+export const NavNavbarRight = styled.ul`
+
+`;
+

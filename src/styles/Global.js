@@ -78,6 +78,7 @@ h3 {
   color: #303030;
   font-weight: 400;
   margin-bottom: 30px;
+  text-align: justify;
 }  
   button {
     cursor: pointer;

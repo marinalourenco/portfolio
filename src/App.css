@@ -55,6 +55,14 @@
   font-style: italic;
   margin: 70px 0;
 }
+
+.img-back{
+    background-image: url('./assets/marina.jpg'); 
+    background-size: 130% 100%;
+    border-radius: 15px;
+    height: 400px; 
+    margin-left: 25px;
+}
 .item span {
   font-style: normal;
 }
