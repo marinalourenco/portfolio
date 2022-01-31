@@ -13,5 +13,15 @@ export const Contato = styled.div`
 `;
 
 export const Descricao = styled.p`
-text-align: left
+text-align: left;
+*{margin-right:5px;}
 `;
+
+export const BotaoLinkedin = styled.a`
+
+`;
+
+export const BotaoGithub = styled.a`
+
+`;
+
